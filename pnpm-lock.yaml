@@ -45,8 +45,8 @@ importers:
         specifier: ^24.2.2
         version: 24.2.2(typescript@5.7.3)
       layerchart:
-        specifier: ^0.93.8
-        version: 0.93.8(svelte@4.2.19)(typescript@5.7.3)
+        specifier: ^0.99.1
+        version: 0.99.1(svelte@4.2.19)(typescript@5.7.3)
       lodash-es:
         specifier: ^4.17.21
         version: 4.17.21
@@ -79,7 +79,7 @@ importers:
         version: 0.3.28(svelte@4.2.19)
       svelte-ux:
         specifier: ^0.77.0
-        version: 0.77.1(@babel/core@7.26.9)(postcss-load-config@4.0.2(postcss@8.5.1))(postcss@8.5.1)(sass@1.85.0)(svelte@4.2.19)
+        version: 0.77.1(@babel/core@7.26.9)(postcss-load-config@4.0.2(postcss@8.5.2))(postcss@8.5.2)(sass@1.85.0)(svelte@4.2.19)
       sveltekit-superforms:
         specifier: ^2.22.1
         version: 2.23.1(@sveltejs/kit@2.17.2(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.14(@types/node@22.10.10)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)))(svelte@4.2.19)(vite@5.4.14(@types/node@22.10.10)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)))(@types/json-schema@7.0.15)(svelte@4.2.19)(typescript@5.7.3)
@@ -131,7 +131,7 @@ importers:
         version: 0.6.7(@sveltejs/kit@2.17.2(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.14(@types/node@22.10.10)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)))(svelte@4.2.19)(vite@5.4.14(@types/node@22.10.10)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0)))(@vite-pwa/assets-generator@0.2.6)(vite-plugin-pwa@0.21.1(@vite-pwa/assets-generator@0.2.6)(vite@5.4.14(@types/node@22.10.10)(lightningcss@1.29.1)(sass@1.85.0)(terser@5.39.0))(workbox-build@7.3.0)(workbox-window@7.3.0))
       autoprefixer:
         specifier: ^10.4.20
-        version: 10.4.20(postcss@8.5.1)
+        version: 10.4.20(postcss@8.5.2)
       eslint:
         specifier: ^9.17.0
         version: 9.19.0(jiti@2.4.2)
@@ -1213,17 +1213,17 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@layerstack/svelte-actions@0.0.11':
-    resolution: {integrity: sha512-sfplFX8rOBW74xjDCAY7QzHilvUGjFQTkfQXxUO6e68cKCHmxsSuTCtFbHRCfIUJCQ31gAbeY1xpWKnlVfgZ9g==}
+  '@layerstack/svelte-actions@0.0.12':
+    resolution: {integrity: sha512-5dqMkfdZe7dbDk0Z0d7kUDez/ygWsjHIBkANACf4AjIDbPbCAGdFnt5UqQHmUmGkDrxEjmh7vLzhdapPPhA1PQ==}
 
-  '@layerstack/svelte-stores@0.0.9':
-    resolution: {integrity: sha512-5yyi7eV/2hOraw7wQgEObVR4s2/4T3G/GjGaZLR9BQH8mnsLuXw1n3k6rFT8NxiRvpEjWJ9l9ILOGc/XzFJb3g==}
+  '@layerstack/svelte-stores@0.0.11':
+    resolution: {integrity: sha512-LdD3yvfhNrNTi8W95b6wP46B06A7xi5vYJ6V2FlOhn97hi2L0qiCVOT202uV5BzzcJc7vXQ/YYuMX4crUQh89A==}
 
-  '@layerstack/tailwind@0.0.11':
-    resolution: {integrity: sha512-dHvJM5xpVisPrM6NClSCNPqB/u+pSwemWzkKeb911/8pLUuyr+7HceTpv5AZMyE/I5A2RxoTa5mTZokmvEqPnQ==}
+  '@layerstack/tailwind@0.0.12':
+    resolution: {integrity: sha512-CM1cLS6RBsOSn4X40ubpau3DRz2mYRCXYb4svPta25rV0m6Ndlx34tNheRSXfvZwsC0DCobH+tykiru1/8P71w==}
 
-  '@layerstack/utils@0.0.7':
-    resolution: {integrity: sha512-7R9AOw/J3TkvSCuQXajK28d7AKuvsEgMQlXBSvAr9tcxSrb9hzraX47uD4uEmEAIB9IiKaG4IUx2FmGiJ3WlTQ==}
+  '@layerstack/utils@0.1.0':
+    resolution: {integrity: sha512-iO/uRz5p+sIBGD3uvMlqpMR6RiPm+uuolmRk7PYEaRq1FCQ7yHNEslPhq6lKMjZy0hZIvzkbjVzZwf0k6fcw8A==}
 
   '@mdi/js@7.4.47':
     resolution: {integrity: sha512-KPnNOtm5i2pMabqZxpUz7iQf+mfrYZyKCZ8QNz85czgEt7cuHcGorWfdzUMWYA0SD+a6Hn4FmJ+YhzzzjkTZrQ==}
@@ -3226,8 +3226,8 @@ packages:
       svelte: 3 - 5 || >=5.0.0-next.120
       typescript: ^5.0.2
 
-  layerchart@0.93.8:
-    resolution: {integrity: sha512-GII/vtuUy0gxNwI2lF4Um6SWthjeFCA8UfZyGT4kYnr7eeQliHiHxkEgH0QtzGAY9kIS9Vza5t1MZWeRJ+vl8A==}
+  layerchart@0.99.1:
+    resolution: {integrity: sha512-mv97xHtBlA+msowl9Nu+j//r8X87OStXgrrAgQP6zqleC9+aRfcnby+GGb3Y+0mSzc5XEiA2P8uB7KPolKo6kg==}
     peerDependencies:
       svelte: ^3.56.0 || ^4.0.0 || ^5.0.0
 
@@ -3739,6 +3739,10 @@ packages:
 
   postcss@8.5.1:
     resolution: {integrity: sha512-6oz2beyjc5VMn/KV1pPw8fliQkhBXrVn1Z3TVyqZxU8kZpzEKhBdmCFqI6ZbmGtamQvQGuU1sgPTk8ZrXDD7jQ==}
+    engines: {node: ^10 || ^12 || >=14}
+
+  postcss@8.5.2:
+    resolution: {integrity: sha512-MjOadfU3Ys9KYoX0AdkBlFEF1Vx37uCCeN4ZHnmwm9FfpbsGWMZeBLMmmpY+6Ocqod7mkdZ0DT31OlbsFrLlkA==}
     engines: {node: ^10 || ^12 || >=14}
 
   prebuild-install@7.1.3:
@@ -6003,27 +6007,27 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@layerstack/svelte-actions@0.0.11':
+  '@layerstack/svelte-actions@0.0.12':
     dependencies:
       '@floating-ui/dom': 1.6.13
-      '@layerstack/utils': 0.0.7
+      '@layerstack/utils': 0.1.0
       d3-array: 3.2.4
       d3-scale: 4.0.2
       date-fns: 4.1.0
       lodash-es: 4.17.21
 
-  '@layerstack/svelte-stores@0.0.9':
+  '@layerstack/svelte-stores@0.0.11':
     dependencies:
-      '@layerstack/utils': 0.0.7
+      '@layerstack/utils': 0.1.0
       d3-array: 3.2.4
       date-fns: 4.1.0
       immer: 10.1.1
       lodash-es: 4.17.21
       zod: 3.24.1
 
-  '@layerstack/tailwind@0.0.11':
+  '@layerstack/tailwind@0.0.12':
     dependencies:
-      '@layerstack/utils': 0.0.7
+      '@layerstack/utils': 0.1.0
       clsx: 2.1.1
       culori: 4.0.1
       d3-array: 3.2.4
@@ -6034,7 +6038,7 @@ snapshots:
     transitivePeerDependencies:
       - ts-node
 
-  '@layerstack/utils@0.0.7':
+  '@layerstack/utils@0.1.0':
     dependencies:
       d3-array: 3.2.4
       date-fns: 4.1.0
@@ -6666,14 +6670,14 @@ snapshots:
 
   at-least-node@1.0.0: {}
 
-  autoprefixer@10.4.20(postcss@8.5.1):
+  autoprefixer@10.4.20(postcss@8.5.2):
     dependencies:
       browserslist: 4.24.4
       caniuse-lite: 1.0.30001695
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.1.1
-      postcss: 8.5.1
+      postcss: 8.5.2
       postcss-value-parser: 4.2.0
 
   available-typed-arrays@1.0.7:
@@ -8161,13 +8165,13 @@ snapshots:
       svelte: 4.2.19
       typescript: 5.7.3
 
-  layerchart@0.93.8(svelte@4.2.19)(typescript@5.7.3):
+  layerchart@0.99.1(svelte@4.2.19)(typescript@5.7.3):
     dependencies:
       '@dagrejs/dagre': 1.1.4
-      '@layerstack/svelte-actions': 0.0.11
-      '@layerstack/svelte-stores': 0.0.9
-      '@layerstack/tailwind': 0.0.11
-      '@layerstack/utils': 0.0.7
+      '@layerstack/svelte-actions': 0.0.12
+      '@layerstack/svelte-stores': 0.0.11
+      '@layerstack/tailwind': 0.0.12
+      '@layerstack/utils': 0.1.0
       d3-array: 3.2.4
       d3-color: 3.1.0
       d3-delaunay: 6.0.4
@@ -8571,17 +8575,17 @@ snapshots:
 
   possible-typed-array-names@1.1.0: {}
 
-  postcss-import@15.1.0(postcss@8.5.1):
+  postcss-import@15.1.0(postcss@8.5.2):
     dependencies:
-      postcss: 8.5.1
+      postcss: 8.5.2
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
       resolve: 1.22.10
 
-  postcss-js@4.0.1(postcss@8.5.1):
+  postcss-js@4.0.1(postcss@8.5.2):
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.5.1
+      postcss: 8.5.2
 
   postcss-load-config@3.1.4(postcss@8.5.1):
     dependencies:
@@ -8590,16 +8594,16 @@ snapshots:
     optionalDependencies:
       postcss: 8.5.1
 
-  postcss-load-config@4.0.2(postcss@8.5.1):
+  postcss-load-config@4.0.2(postcss@8.5.2):
     dependencies:
       lilconfig: 3.1.3
       yaml: 2.7.0
     optionalDependencies:
-      postcss: 8.5.1
+      postcss: 8.5.2
 
-  postcss-nested@6.2.0(postcss@8.5.1):
+  postcss-nested@6.2.0(postcss@8.5.2):
     dependencies:
-      postcss: 8.5.1
+      postcss: 8.5.2
       postcss-selector-parser: 6.1.2
 
   postcss-safe-parser@6.0.0(postcss@8.5.1):
@@ -8618,6 +8622,12 @@ snapshots:
   postcss-value-parser@4.2.0: {}
 
   postcss@8.5.1:
+    dependencies:
+      nanoid: 3.3.8
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
+
+  postcss@8.5.2:
     dependencies:
       nanoid: 3.3.8
       picocolors: 1.1.1
@@ -9216,7 +9226,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  sveld@0.22.0(@babel/core@7.26.9)(postcss-load-config@4.0.2(postcss@8.5.1))(postcss@8.5.1)(sass@1.85.0):
+  sveld@0.22.0(@babel/core@7.26.9)(postcss-load-config@4.0.2(postcss@8.5.2))(postcss@8.5.2)(sass@1.85.0):
     dependencies:
       '@rollup/plugin-node-resolve': 13.3.0(rollup@2.79.2)
       acorn: 8.14.0
@@ -9225,7 +9235,7 @@ snapshots:
       rollup: 2.79.2
       rollup-plugin-svelte: 7.2.2(rollup@2.79.2)(svelte@4.2.19)
       svelte: 4.2.19
-      svelte-preprocess: 6.0.3(@babel/core@7.26.9)(postcss-load-config@4.0.2(postcss@8.5.1))(postcss@8.5.1)(sass@1.85.0)(svelte@4.2.19)(typescript@5.7.3)
+      svelte-preprocess: 6.0.3(@babel/core@7.26.9)(postcss-load-config@4.0.2(postcss@8.5.2))(postcss@8.5.2)(sass@1.85.0)(svelte@4.2.19)(typescript@5.7.3)
       tinyglobby: 0.2.10
       typescript: 5.7.3
     transitivePeerDependencies:
@@ -9292,13 +9302,13 @@ snapshots:
     dependencies:
       svelte: 4.2.19
 
-  svelte-preprocess@6.0.3(@babel/core@7.26.9)(postcss-load-config@4.0.2(postcss@8.5.1))(postcss@8.5.1)(sass@1.85.0)(svelte@4.2.19)(typescript@5.7.3):
+  svelte-preprocess@6.0.3(@babel/core@7.26.9)(postcss-load-config@4.0.2(postcss@8.5.2))(postcss@8.5.2)(sass@1.85.0)(svelte@4.2.19)(typescript@5.7.3):
     dependencies:
       svelte: 4.2.19
     optionalDependencies:
       '@babel/core': 7.26.9
-      postcss: 8.5.1
-      postcss-load-config: 4.0.2(postcss@8.5.1)
+      postcss: 8.5.2
+      postcss-load-config: 4.0.2(postcss@8.5.2)
       sass: 1.85.0
       typescript: 5.7.3
 
@@ -9315,7 +9325,7 @@ snapshots:
     dependencies:
       svelte: 4.2.19
 
-  svelte-ux@0.77.1(@babel/core@7.26.9)(postcss-load-config@4.0.2(postcss@8.5.1))(postcss@8.5.1)(sass@1.85.0)(svelte@4.2.19):
+  svelte-ux@0.77.1(@babel/core@7.26.9)(postcss-load-config@4.0.2(postcss@8.5.2))(postcss@8.5.2)(sass@1.85.0)(svelte@4.2.19):
     dependencies:
       '@floating-ui/dom': 1.6.13
       '@fortawesome/fontawesome-common-types': 6.7.2
@@ -9331,7 +9341,7 @@ snapshots:
       prism-svelte: 0.5.0
       prism-themes: 1.9.0
       prismjs: 1.29.0
-      sveld: 0.22.0(@babel/core@7.26.9)(postcss-load-config@4.0.2(postcss@8.5.1))(postcss@8.5.1)(sass@1.85.0)
+      sveld: 0.22.0(@babel/core@7.26.9)(postcss-load-config@4.0.2(postcss@8.5.2))(postcss@8.5.2)(sass@1.85.0)
       svelte: 4.2.19
       tailwind-merge: 2.6.0
       zod: 3.24.1
@@ -9426,11 +9436,11 @@ snapshots:
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.1.1
-      postcss: 8.5.1
-      postcss-import: 15.1.0(postcss@8.5.1)
-      postcss-js: 4.0.1(postcss@8.5.1)
-      postcss-load-config: 4.0.2(postcss@8.5.1)
-      postcss-nested: 6.2.0(postcss@8.5.1)
+      postcss: 8.5.2
+      postcss-import: 15.1.0(postcss@8.5.2)
+      postcss-js: 4.0.1(postcss@8.5.2)
+      postcss-load-config: 4.0.2(postcss@8.5.2)
+      postcss-nested: 6.2.0(postcss@8.5.2)
       postcss-selector-parser: 6.1.2
       resolve: 1.22.10
       sucrase: 3.35.0
